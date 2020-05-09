@@ -1,0 +1,133 @@
+/* ----------------------- Global Styles -----------------------*/
+*, *::before, *::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 100%;
+}
+
+body {
+  font: 100% Arial, Helvetica, sans-serif;
+  background-color: #efefef;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+}
+
+body .wrap {
+  margin: 0 auto;
+  width: 100VW;
+  max-width: 1000px;
+}
+
+h1, h2, h3, h4, h5, h6, h7 {
+  color: #2b4285;
+}
+
+a {
+  text-decoration: none;
+}
+
+.subHead {
+  font-size: 1.6em;
+  color: #8f8f8f;
+  padding: 3px 0 0 0;
+}
+
+p {
+  color: #727272;
+  padding: 6px 0;
+}
+
+/* ----- Inheritance ----- */
+.success, .error, .warning {
+  border: 1px solid #eee;
+  padding: 10px;
+  color: 333;
+}
+
+.success {
+  border-color: green;
+}
+
+.error {
+  border-color: red;
+}
+
+.warning {
+  border-color: yellow;
+}
+
+/* ----------------------- Header Styles -----------------------*/
+header {
+  height: 60px;
+  width: 100%;
+  border-bottom: #336699;
+  background-color: #306090;
+  color: #fff;
+}
+
+header nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+header nav .logo {
+  color: #c0cedb;
+}
+
+header nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+}
+
+header nav li {
+  padding: 15px;
+}
+
+header nav a {
+  text-decoration: none;
+  color: #fff;
+}
+
+header nav a:hover {
+  color: #d1d1d1;
+}
+
+/* ----------------------- Nav Styles -----------------------*/
+.btn-primary, .btn-secondary {
+  display: inline-block;
+  border-radius: 3px;
+  padding: 8px 20px;
+  margin: 3px;
+}
+
+.btn-primary:hover, .btn-secondary:hover {
+  -webkit-transform: scale(0.98);
+          transform: scale(0.98);
+}
+
+.btn-primary {
+  background-color: #4080bf;
+}
+
+.btn-secondary {
+  background-color: #efefef;
+}
+
+/* ----------------------- Footer Styles -----------------------*/
+/*# sourceMappingURL=style.css.map */

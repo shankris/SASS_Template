@@ -1,0 +1,77 @@
+
+/* ----------------------- Global Styles -----------------------*/
+
+$font-stack: Arial, Helvetica, sans-serif;
+$primary-color: #336699;
+$bg-color: #efefef;
+
+$secondary-btn: #efefef;
+
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+html {
+    font-size:100%;
+}
+
+body {
+    font: 100% $font-stack;
+    background-color: $bg-color;
+    line-height: 1.5;
+    margin:0;
+    padding:0;
+
+
+    .wrap
+    {
+        margin: 0 auto;
+        width:100VW;
+        max-width: 1000px;
+    }
+}
+
+h1, h2, h3, h4, h5, h6, h7 {
+    color:#2b4285;
+}
+
+a {
+    text-decoration: none;
+}
+
+.subHead {
+    font-size: 1.6em;
+    color:rgb(143, 143, 143);
+    padding:3px 0 0 0;
+}
+
+p {
+    color:#727272;
+    padding:6px 0;
+}
+
+
+/* ----- Inheritance ----- */
+
+%message_shared {
+    border: 1px solid #eee;
+    padding: 10px;
+    color: 333;
+}
+
+.success {
+    @extend %message_shared;
+    border-color: green;
+}
+
+.error {
+    @extend %message_shared;
+    border-color: red;
+}
+
+.warning {
+    @extend %message_shared;
+    border-color: yellow;    
+}
+

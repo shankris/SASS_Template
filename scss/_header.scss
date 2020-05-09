@@ -1,0 +1,40 @@
+/* ----------------------- Header Styles -----------------------*/
+header {
+    height:60px;
+    width:100%;
+    border-bottom: #336699;
+    background-color: #306090;
+    color:#fff;
+
+    nav {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin:0 auto;
+
+    .logo {
+        color:#c0cedb
+    }
+
+    ul {
+        display:flex;
+        list-style-type: none;
+        margin:0;
+    }
+
+    li {
+        padding:15px;
+    }
+
+    a {
+        text-decoration: none;
+        color:#fff;
+    }
+
+    a:hover {
+        color:rgb(209, 209, 209);
+    }
+
+    }
+}
